@@ -5,3 +5,10 @@ for(let i = 0; i < headerEl.length; i++){
     //make sure to set it up as an array since it is a nodeList
     headerEl[i].classList.add("important");   
 }
+// How you found where the dashed class was
+// const dash = document.querySelector(".dashed");
+// console.log("this is the dashed location", dash);
+
+//this removed the dashed class form the article
+const dash = document.querySelector(".dashed");
+dash.classList.remove("dashed");
